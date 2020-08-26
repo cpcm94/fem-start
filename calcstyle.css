@@ -1,0 +1,90 @@
+.calculator {
+    font-size: 40px;
+    height: 500px;
+    width: 350px;
+}
+.all-buttons {
+    height: 500px;
+    width: 350px;
+}
+
+.result {
+    font-family: "Courier New";
+    height: 10%;
+    padding-right: 5px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.first-row {
+    height: 18%;
+    display:flex;
+    flex: 1;
+}
+
+.second-row {
+    height: 18%;
+    display:flex;
+    flex: 1;
+}
+
+.third-row {
+    height: 18%;
+    display: flex;
+    flex: 1;
+}
+
+.fourth-row {
+    height: 18%;
+    display: flex;
+    flex: 1;
+}
+
+.fifth-row {
+    height: 18%;
+    display: flex;
+    flex: 1;
+}
+
+.button {
+    border: solid black 1px;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 35px;
+    width: 50%;
+    background-color:#d8d9db;
+    display:flex;
+    flex: 1 25%;
+}
+
+.button:hover {
+    filter: brightness(110%);
+}
+
+.button:active {
+    filter: brightness(90%);
+}
+
+.button.operation {
+    background-color: #df974c;
+    color: white;
+}
+
+.clear.button {
+    padding-left: 75px;
+    display: flex;
+    flex: 1 50%;
+}
+
+.number.button.zero {
+    padding-left: 120px;
+    display:flex;
+    flex: 1 75%;
+}
+
+.backspace.button {
+    padding-left: 25px;
+}
